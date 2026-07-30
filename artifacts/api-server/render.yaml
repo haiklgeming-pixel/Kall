@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: siswa-portfolio-api
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: pnpm --filter @workspace/api-server build
+    startCommand: pnpm --filter @workspace/api-server start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
