@@ -85,7 +85,7 @@ export function Hero() {
               <div className="relative w-full h-full bg-muted border-[3px] border-border rounded-[1rem] overflow-hidden shadow-[0_20px_60px_-20px_rgba(0,0,0,0.35)]">
                 <img
                   src="/Student_member_4_portrait_bb62bd41.png"
-                  alt="Foto Aryan Pratama"
+                  alt="Foto Haikal Joanelman"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
@@ -97,7 +97,7 @@ export function Hero() {
                 transition={{ duration: 0.5, delay: 0.7 }}
                 className="absolute -bottom-4 -left-4 bg-background border border-border rounded-sm px-3 py-1.5 shadow-sm text-xs font-mono text-muted-foreground"
               >
-                @aryan.prtm
+                @mrhaikallllll
               </motion.div>
             </div>
           </motion.div>
