@@ -38,17 +38,17 @@ export function About() {
             className="lg:w-5/12"
           >
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 text-foreground">
-              Sedikit Tentang Aku.
+              Sedikit Tentang Saya.
             </h2>
             <div className="prose prose-lg prose-p:text-muted-foreground prose-p:leading-relaxed">
               <p>
-                Aku Haikal, siswa kelas 12 di SMA Negeri 12 Jakarta. Selain pelajaran wajib di kelas, aku suka banget bikin hal-hal baru. 
+                Saya Haikal, siswa kelas 12 di SMA Negeri 12 Jakarta. Selain pelajaran wajib di kelas, aku suka banget bikin hal-hal baru. 
               </p>
               <p>
-                Waktu luangku biasanya habis buat membuat website sederhana di kamar. Aku percaya kalau kombinasi antara logika sains dan kreativitas seni itu menyenangkan.
+                Waktu luangku biasanya habis buat membuat website sederhana di kamar. Saya percaya kalau kombinasi antara logika sains dan kreativitas seni itu menyenangkan.
               </p>
               <p>
-                Rencananya, setelah lulus aku mau kuliah di jurusan Ilmu Komputer atau Desain Komunikasi Visual
+                Rencananya, setelah lulus saya mau kuliah di jurusan Ilmu Komputer atau Desain Komunikasi Visual
               </p>
             </div>
 
