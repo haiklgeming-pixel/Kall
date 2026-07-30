@@ -66,7 +66,7 @@ export function Projects() {
               Jejak.
             </h2>
             <p className="text-muted-foreground max-w-xl text-lg">
-              Kumpulan proyek, tulisan, dan pengalaman yang aku kerjakan sejauh ini, baik di sekolah maupun waktu luang.
+              Kumpulan proyek, tulisan, dan pengalaman yang saya kerjakan sejauh ini, baik di sekolah maupun waktu luang.
             </p>
           </div>
           
