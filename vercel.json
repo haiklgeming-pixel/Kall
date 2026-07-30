@@ -1,8 +1,8 @@
 {
   "version": 2,
   "framework": "vite",
-  "buildCommand": "pnpm --filter @workspace/portfolio build",
   "installCommand": "pnpm install",
+  "buildCommand": "pnpm --dir artifacts/portfolio build",
   "outputDirectory": "artifacts/portfolio/dist",
   "rewrites": [
     {
