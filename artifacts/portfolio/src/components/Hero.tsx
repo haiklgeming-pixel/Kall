@@ -97,7 +97,7 @@ export function Hero() {
                 transition={{ duration: 0.5, delay: 0.7 }}
                 className="absolute -bottom-4 -left-4 bg-background border border-border rounded-sm px-3 py-1.5 shadow-sm text-xs font-mono text-muted-foreground"
               >
-                @mrhaikallllll
+                @haikal.joanelman
               </motion.div>
             </div>
           </motion.div>

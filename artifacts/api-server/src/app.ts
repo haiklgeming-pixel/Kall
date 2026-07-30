@@ -29,6 +29,14 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.get("/", (_req, res) => {
+  res.status(200).json({
+    status: "ok",
+    service: "siswa-portfolio-api",
+    endpoints: ["/healthz", "/api/healthz"],
+  });
+});
+
 app.get("/healthz", (_req, res) => {
   res.status(200).json({ status: "ok" });
 });
