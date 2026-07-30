@@ -63,7 +63,7 @@ export function Projects() {
         <div className="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-8">
           <div>
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4 text-foreground">
-              Jejak Karya.
+              Jejak.
             </h2>
             <p className="text-muted-foreground max-w-xl text-lg">
               Kumpulan proyek, tulisan, dan pengalaman yang aku kerjakan sejauh ini, baik di sekolah maupun waktu luang.
