@@ -51,7 +51,7 @@ export function Navbar() {
           href="#contact" 
           className="md:hidden text-sm font-medium border-b border-foreground pb-0.5"
         >
-          Sapa Aku
+          Sapa Saya
         </a>
       </div>
     </motion.nav>
