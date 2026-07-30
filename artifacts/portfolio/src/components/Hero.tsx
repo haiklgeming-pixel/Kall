@@ -30,7 +30,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold leading-[1.1] mb-6 text-foreground"
             >
-              Halo! Aku <br />
+              Halo! Saya <br />
               <span className="relative inline-block">
                 Haikal Joanelman
                 <svg className="absolute w-full h-3 -bottom-1 left-0 text-primary opacity-60" viewBox="0 0 100 10" preserveAspectRatio="none">
@@ -65,7 +65,7 @@ export function Hero() {
                 href="#contact"
                 className="px-6 py-3 bg-transparent text-foreground font-medium rounded-sm border-drawn-2 hover:bg-black/5 transition-colors"
               >
-                Hubungi Aku
+                Hubungi Saya
               </a>
             </motion.div>
           </div>
