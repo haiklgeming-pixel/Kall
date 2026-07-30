@@ -34,7 +34,7 @@ export function Contact() {
             <div className="space-y-6">
               <h3 className="font-bold uppercase tracking-widest text-sm text-background/50">Temukan aku di</h3>
               <div className="flex gap-4">
-                <a href="https://instagram.com/aryan.prtm" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors border border-background/20">
+                <a href="https://instagram.com/mrhaikalllllll" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors border border-background/20">
                   <SiInstagram className="w-5 h-5" />
                   <span className="sr-only">Instagram</span>
                 </a>
@@ -42,7 +42,7 @@ export function Contact() {
                   <Linkedin className="w-5 h-5" />
                   <span className="sr-only">LinkedIn</span>
                 </a>
-                <a href="https://github.com/aryanprtm" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors border border-background/20">
+                <a href="https://github.com/haiklgeming-pixel" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors border border-background/20">
                   <SiGithub className="w-5 h-5" />
                   <span className="sr-only">GitHub</span>
                 </a>
@@ -97,7 +97,7 @@ export function Contact() {
                     id="message" 
                     required
                     rows={4}
-                    placeholder="Halo Aryan, aku mau ngajak ngobrol soal..."
+                    placeholder="Halo Haikal, aku mau ngajak ngobrol soal..."
                     className="w-full px-4 py-3 bg-transparent border-2 border-border focus:border-primary focus:outline-none rounded-sm transition-colors font-sans resize-none"
                   ></textarea>
                 </div>
@@ -116,7 +116,7 @@ export function Contact() {
       </div>
       
       <div className="container mx-auto px-6 mt-24 pt-8 border-t border-background/20 text-center text-background/50 text-sm font-mono">
-        <p>Dibuat dengan ☕ dan semangat. © 2025 Aryan Pratama</p>
+        <p>Dibuat dengan ☕ dan semangat. © 2026 Haikal Joanelman</p>
       </div>
     </section>
   );

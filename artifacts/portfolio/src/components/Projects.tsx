@@ -2,56 +2,56 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 
-type Category = 'Semua' | 'Akademik' | 'Organisasi' | 'Karya Pribadi';
+type Category = 'Semua' | 'Akademik' | 'Anime Challenge' | 'Karya Pribadi' | 'Bahasa Jepang' | 'Membaca' | 'Organisasi';
 
 const projects = [
   {
-    title: 'Website Kelas XII IPA 3',
+    title: 'Website',
     category: 'Akademik',
-    description: 'Membuat website profil kelas dengan fitur galeri foto, jadwal pelajaran, dan daftar anggota. Dikerjakan bersama 2 teman menggunakan HTML, CSS, dan JavaScript.',
-    tags: ['HTML/CSS', 'JavaScript', 'Team Project'],
-    year: '2024'
+    description: 'Membuat website profil kelas dengan fitur galeri foto, jadwal pelajaran, dan daftar anggota. menggunakan HTML, CSS, dan JavaScript.',
+    tags: ['HTML/CSS', 'JavaScript', 'Web Development'],
+    year: '2025'
   },
   {
-    title: 'Riset Mini: Dampak Media Sosial terhadap Konsentrasi Belajar',
-    category: 'Akademik',
-    description: 'Penelitian sederhana menggunakan metode survei dengan 80+ responden siswa SMA. Disajikan dalam bentuk infografis dan poster ilmiah di Karya Ilmiah Remaja.',
-    tags: ['Penelitian', 'Infografis', 'Public Speaking'],
-    year: '2024'
+    title: 'Menonton Anime 12 Episode dalam 1 Hari',
+    category: 'Anime Challenge',
+    description: 'Menyelesaikan tantangan menonton 12 episode anime dalam satu hari, sambil mencatat waktu dan reaksi terhadap setiap episode. Tujuannya untuk menguji konsentrasi dan manajemen waktu.',
+    tags: ['Time Management', 'Focus', 'Entertainment'],
+    year: '2020'
   },
   {
-    title: 'Ketua Seksi Acara — Pentas Seni Sekolah 2024',
-    category: 'Organisasi',
-    description: 'Mengkoordinasi 12 penampil dan 30 panitia untuk acara tahunan sekolah. Mengelola rundown, komunikasi antar divisi, dan troubleshooting on-stage.',
-    tags: ['Event Management', 'Leadership', 'Coordination'],
-    year: '2024'
+    title: 'Belajar Bahasa Jepang, Hanya dengan Menonton Anime',
+    category: 'Bahasa Jepang',
+    description: 'Saya mengeksplor cara belajar bahasa Jepang yang menyenangkan hanya dengan menonton anime.',
+    tags: ['Language Learning', 'Japanese', 'Anime'],
+    year: '2020'
   },
   {
-    title: 'Staff Humas OSIS 2023–2024',
-    category: 'Organisasi',
-    description: 'Mengelola akun Instagram resmi OSIS (@osis_smaxyz) dengan konten mingguan. Membuat desain poster dan reels untuk 15+ kegiatan sekolah.',
-    tags: ['Social Media', 'Canva', 'Content Creation'],
+    title: 'Rajin Membaca Manhwa, dan Menulis Review',
+    category: 'Membaca',
+    description: 'Membaca berbagai manhwa dan menulis review singkat untuk setiap cerita yang dibaca, membagikan pendapat dan rekomendasi kepada teman-teman.',
+    tags: ['Reading', 'Manhwa', 'Review Writing'],
     year: '2023'
   },
   {
-    title: 'Kumpulan Cerpen "Ruang Antara"',
+    title: 'Excel',
     category: 'Karya Pribadi',
-    description: 'Antologi 5 cerita pendek bertema kehidupan remaja, diterbitkan sebagai zine digital. Desain layout menggunakan Canva, disebarkan lewat Linktree.',
-    tags: ['Menulis', 'Canva', 'Zine'],
+    description: 'Membuat spreadsheet untuk mengelola data dan informasi pribadi.',
+    tags: ['Excel', 'Data Management'],
     year: '2024'
   },
   {
-    title: 'Mini Portfolio Desain Grafis',
+    title: 'Website PKWU',
     category: 'Karya Pribadi',
-    description: 'Koleksi 20+ karya desain: poster acara, konten media sosial, dan infografis sekolah. Menggunakan Canva dan mulai belajar Figma.',
-    tags: ['Canva', 'Figma', 'Visual Design'],
-    year: '2023–2024'
+    description: 'Koleksi project web design untuk kegiatan PKWU.',
+    tags: ['Web Design', 'Portfolio'],
+    year: '2025-2026'
   }
 ];
 
 export function Projects() {
   const [activeCategory, setActiveCategory] = useState<Category>('Semua');
-  const categories: Category[] = ['Semua', 'Akademik', 'Organisasi', 'Karya Pribadi'];
+  const categories: Category[] = ['Semua', 'Akademik', 'Anime Challenge', 'Karya Pribadi', 'Bahasa Jepang', 'Membaca', 'Organisasi'];
 
   const filteredProjects = projects.filter(
     (project) => activeCategory === 'Semua' || project.category === activeCategory

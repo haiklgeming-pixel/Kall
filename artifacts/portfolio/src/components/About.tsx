@@ -13,7 +13,7 @@ export function About() {
     },
     {
       category: "Soft Skills",
-      items: ["Public Speaking", "Event Management", "Content Writing", "Team Coordination"]
+      items: ["Event Management", "Content Writing", "Teamwork"]
     },
     {
       category: "Tools",
@@ -42,21 +42,21 @@ export function About() {
             </h2>
             <div className="prose prose-lg prose-p:text-muted-foreground prose-p:leading-relaxed">
               <p>
-                Aku Aryan, siswa kelas 12 MIPA di SMA Negeri 7 Bandung. Selain pelajaran wajib di kelas, aku aktif di OSIS sebagai staff humas dan suka banget bikin hal-hal baru. 
+                Aku Haikal, siswa kelas 12 di SMA Negeri 12 Jakarta. Selain pelajaran wajib di kelas, aku suka banget bikin hal-hal baru. 
               </p>
               <p>
-                Waktu luangku biasanya habis buat nulis cerpen, desain poster acara sekolah, atau coba-coba ngoding website sederhana di kamar. Aku percaya kalau kombinasi antara logika sains dan kreativitas seni itu menyenangkan.
+                Waktu luangku biasanya habis buat membuat website sederhana di kamar. Aku percaya kalau kombinasi antara logika sains dan kreativitas seni itu menyenangkan.
               </p>
               <p>
-                Rencananya, setelah lulus aku mau kuliah di jurusan Ilmu Komputer atau Desain Komunikasi Visual — dua bidang yang terasa kayak gabungan dari semua hal yang aku suka.
+                Rencananya, setelah lulus aku mau kuliah di jurusan Ilmu Komputer atau Desain Komunikasi Visual
               </p>
             </div>
 
             <div className="mt-10 p-6 bg-secondary/10 border-drawn-2 inline-block">
               <h3 className="font-bold text-foreground mb-2 text-sm uppercase tracking-widest">Pendidikan Saat Ini</h3>
               <ul className="space-y-1 text-muted-foreground">
-                <li><span className="font-semibold text-foreground">Sekolah:</span> SMA Negeri 7 Bandung</li>
-                <li><span className="font-semibold text-foreground">Jurusan:</span> MIPA (Kurikulum Merdeka)</li>
+                <li><span className="font-semibold text-foreground">Sekolah:</span> SMA Negeri 12 Jakarta</li>
+                <li><span className="font-semibold text-foreground">Jurusan:</span> Jurusan (Soshum)</li>
                 <li><span className="font-semibold text-foreground">Angkatan:</span> 2025</li>
               </ul>
             </div>

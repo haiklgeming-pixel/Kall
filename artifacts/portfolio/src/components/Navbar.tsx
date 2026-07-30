@@ -30,7 +30,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
         <a href="#home" className="font-serif font-bold text-xl tracking-tight text-foreground">
-          AP.
+          Kall
         </a>
         
         <ul className="hidden md:flex gap-8 items-center">
